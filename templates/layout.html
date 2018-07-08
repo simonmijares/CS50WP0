@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!
+DOCTYPE html>
 <html>
     <head>
         <title>My Website!</title>
@@ -6,9 +7,27 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     </head>
     <body>
+      <header>
+        <table style="width:100%">
+          <tr>
+            <td>Raiu.net</td>
+            <td><nav id="navpanel">
+                <a href="/">Home</a> |
+                <a href="/css/">CSS</a> |
+                <a href="/js/">JavaScript</a> |
+                <a href="/more">More</a>
+                </nav></td>
+          </tr>
+        </table>
+      </header>
         <h1>{% block heading %}{% endblock %}</h1>
 
         {% block body %}
         {% endblock %}
+      <footer>
+        <p><h7>Posted by: Denkijin Raiu</h7><br>
+        <h7>Contact information: <a href="mailto:denkijin@raiu.net">
+        denkijin@raiu.net</a>.</h7></p>
+      </footer>
     </body>
 </html>
