@@ -14,7 +14,7 @@ to enter the project directory. Now, run
 
 touch index.html
 to create a new index.html file in your repository. Open the file with your favorite text editor: popular choices include Atom, Sublime Text, and VS Code. Then, paste in the following contents:
-
+```
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,6 +24,7 @@ to create a new index.html file in your repository. Open the file with your favo
         Hello, world!
     </body>
 </html>
+```
 Then, save your index.html file.
 
 Requirements
