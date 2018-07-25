@@ -8,11 +8,34 @@
     <p>
         Donec lobortis dapibus magna, quis facilisis velit malesuada a. Nunc iaculis augue nulla, sed sodales dui volutpat lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam non lorem eget augue auctor feugiat at ut justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean nec lectus eget diam tempor aliquam sit amet sed augue.
     </p>
-    <ol>
-	<li>First</li>
-	<li>Second</li>
-	<li>Third</li>
-    </ol>
+	<table class="table table-hover table-dark">
+		<thead>
+			<tr>
+				<th scope="col">#</th> 
+				<th scope="col">First</th>
+				<th scope="col">Last</th>
+				<th scope="col">Handle</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">1</th>
+				<td>Mark</td>
+				<td>Otto</td> 
+				<td>@mdo</td> 
+			</tr> 
+			<tr> 
+				<th scope="row">2</th> 
+					<td>Jacob</td> 
+					<td>Thornton</td> 
+					<td>@fat</td> 
+				</tr> 
+				<tr> 
+					<th scope="row">3</th> 
+					<td>Larry the Bird</td>
+					<td>Larry the Bird</td>
+					<td>@twitter</td> 
+				</tr> </tbody> </table>
     <a href="{{ url_for('index') }}">Go back</a>
 {% endblock %}
 
